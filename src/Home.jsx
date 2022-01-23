@@ -4,7 +4,7 @@ import DocumentTitle from 'react-document-title'
 function Home() {
   return (
     <MainLayout>
-        <DocumentTitle title='หน้าหลัก' />
+        <DocumentTitle title='Home' />
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to={0} className="active" aria-current="true" aria-label="Slide 1" />
